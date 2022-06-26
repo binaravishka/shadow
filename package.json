@@ -1,0 +1,27 @@
+{
+  "name": "grain-light-shader-lambert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@babel/core": "7.17.5",
+    "@babel/plugin-proposal-class-properties": "7.16.7",
+    "@babel/preset-env": "7.16.11",
+    "glsl-noise": "0.0.0",
+    "glslify": "7.1.1",
+    "parcel-bundler": "^1.6.1",
+    "three": "0.137.5"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
